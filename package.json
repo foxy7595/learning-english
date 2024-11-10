@@ -1,0 +1,27 @@
+{
+  "name": "chrome-extension-v3-starter",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">     <img src=\"https://raw.githubusercontent.com/SimGus/chrome-addon-v3-starter/master/logo/logo-128.png\"/>     <h1>Chrome Extension v3 Starter</h1>     <h3>A minimal template of a Chrome v3 addon</h3> </div>",
+  "main": "foreground.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "nodemon server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase": "^11.0.1",
+    "firebase-admin": "^12.7.0",
+    "nodemon": "^3.1.7",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  }
+}
